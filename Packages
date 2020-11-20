@@ -1,0 +1,162 @@
+Package: arslanwarya.locationfaker8
+Name: LocationFaker9
+Size: 569754
+Version: 1.2-9k
+Architecture: iphoneos-arm
+Description: change your location using a map
+Author: Cunstuck
+Section: Utilities
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: org.thebigboss.locationchangerx, com.repo.xarold.com.locationchangerx
+Filename: ./debs/1st.deb
+MD5sum:3e609b88ff0f0c1c41ecf0dcc337b236
+
+
+Package: com.officialscheduler.mterminal
+Name: MTerminal
+Size: 107204
+Version: 1.4-5
+Architecture: iphoneos-arm
+Description: A MobileTerminal fork
+Depends: firmware (>= 4.0), system-cmds
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: lordscotland <admin@officialscheduler.com>
+Section: Utilities
+Installed-Size: 325
+dev: officialscheduler
+Icon: file:///Applications/MTerminal.app/Icon.png
+Tag: purpose::uikit, compatible::ios7, compatible::ios8, compatible::ios9
+Filename: ./debs/terminal.deb
+MD5sum:ca89ef2a021eb532ab64a3f584d4c9d4
+
+Package: com.repo.xarold.com.filza64bit
+Name: Filza File Manager 64-bit
+Version: 3.4.0-25
+Architecture: iphoneos-arm
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
+Author: TIGI Software
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza, com.repo.xarold.com.filza
+MD5sum:26e8890bc482d96b85ceec86a3434cfb
+Filename: ./debs/filza64.deb
+Size: 12794860
+Section: Utilities
+
+Package: com.repo.xarold.com.ifile
+Name: iFile
+Version: 2.2.0-1k
+Architecture: iphoneos-arm
+Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
+Author: Carsten Heinelt
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Installed-Size: 20224
+MD5sum: 737ec768da78067f16dc64f593905df3
+Filename: ./debs/ifile.deb
+Size: 9746908
+Section: Utilities
+
+Package: com.repo.xarold.com.appsyncunified
+Name: AppSync Unified
+Version: 6.0.1
+Architecture: iphoneos-arm
+Description: Enables the ability to install unsigned/fakesigned iOS applications.supports till iOS 10
+Author: Linus Yang, Karen／明美 
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<< 10.3)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.repo.xarold.com.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
+MD5sum: 08a45a31c85a50399043be0cc7a15b48
+Filename: ./debs/appsync.deb
+Size: 29000
+
+
+Package: com.gpp.ipcarrier
+Name: sprint patch 6P/6/5S/5C/5 iOS7,8,9 
+Pre-Depends: firmware (>= 7.0),cy+model.iphone (>= 5)
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Version: 3.0
+Maintainer: GPP <china3gpp@hotmail.com>
+Sponsor: www.china3gpp.com
+Author: GPP
+Section: Tweaks
+Description: ios8~ios7，patch for sprint
+MD5sum: 8e5c51717b6b63f4f68a37227241a8b8
+Filename: ./debs/patch.deb
+Size: 153164
+
+Package: GOGUO.GSM.iOS8.2.cmcc
+Name: GOGUO iOS 8.2~9.0xGSM Patch
+Version: 1.2
+Pre-Depends: firmware (>= 8.2), cy+model.iphone (>= 5)
+Depends: mobilesubstrate
+Conflicts: GOGUO.GSM.iOS8.2.uni
+Architecture: iphoneos-arm
+Maintainer: GOGUO <polysony@163.com>
+Sponsor: GOGUO <polysony@163.com>
+Author: GOGUO <polysony@163.com>
+Section: Tweaks
+Description: 6P/6/5S/5 GSM PATCH 运营商:中国移动,内含电话修正补丁,屏蔽运营商更新,修复运营商不可用；
+Homepage: http://www.goguo.cn
+MD5sum: d1eb7375c0724c88674639a2cbf9f4b7
+Filename: ./debs/goguolatest.deb
+Size: 102382
+
+Package: CN.GOGUO.6P65S5C5.iOS8.cmcc
+Name: iOS 8.x Only GSM old patch
+Version: 1.1
+Pre-Depends: firmware (>= 8.0), cy+model.iphone (>= 5)
+Depends: mobilesubstrate
+Conflicts: CN.GOGUO.6P65S5C5.iOS8.uni
+Architecture: iphoneos-arm
+Maintainer: 高果科技 <polysony@163.com>
+Sponsor: 高果科技 <polysony@163.com>
+Author: 高果科技 <polysony@163.com>
+Section: Tweaks
+Description: iOS 8 6P/6/5S/5C/5 Unlock GSM NETWORK
+Homepage: http://www.goguo.cn
+MD5sum: e472b772eaaf1e0066bd1dad3eb4e743
+Filename: ./debs/goguoold.deb
+Size: 168396
+
+Package: com.mokadam.slider-arm64e
+Priority: optional
+Section: System
+Maintainer: xRepo <support@xRepo.co>
+Architecture: iphoneos-arm
+Source: Hi I `m back
+Version: 9.4
+Depends: firmware (>= 11.0), mobilesubstrate
+Name: slider-arm64e
+Icon: hi
+SileoDepiction: http://mokadam.xrepo.co/sileo.php?pid=1162
+Author: Ahmad Mokadam
+Sponsor: xRepo.co <http://xRepo.co>
+MD5sum: 56B31E116413FB07888023E0BA81C9B0
+SHA1: E0C6928123A57FDF8AA3CB31E9CBAF75C23AC310
+SHA256: A494093645EC060B8C5F2314BD6F4E745C3B80379B7006336A542E042CDBEAAB
+Filename: ./debs/slider.deb
+Size: 1739579
+
+Package: org.mr.filza
+Section: Utilities
+Installed-Size: 32036
+Maintainer: MainRepo
+Architecture: iphoneos-arm
+Version: 3.8.1-16k
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+.
+Name: Filza File Manager
+Author: TIGI Software
+Depiction: https://mainrepo.org/package/2203
+SileoDepiction: https://mainrepo.org/sileo/2203
+Icon: https://api.ios-repo-updates.com/images/repositories/tigisoftware.png
+MD5sum: 4283CD56319DEA4AAC0EF2A1E03D8683
+Filename: ./debs/filza.deb
+Size: 13556890
+
+
+
+
+

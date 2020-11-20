@@ -30,18 +30,6 @@ Tag: purpose::uikit, compatible::ios7, compatible::ios8, compatible::ios9
 Filename: ./debs/terminal.deb
 MD5sum:ca89ef2a021eb532ab64a3f584d4c9d4
 
-Package: com.repo.xarold.com.filza64bit
-Name: Filza File Manager 64-bit
-Version: 3.4.0-25
-Architecture: iphoneos-arm
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
-Author: TIGI Software
-Depends: zip, unzip, gzip, unrar, p7zip
-Conflicts: com.tigisoftware.filza, com.repo.xarold.com.filza
-MD5sum:26e8890bc482d96b85ceec86a3434cfb
-Filename: ./debs/filza64.deb
-Size: 12794860
-Section: Utilities
 
 Package: com.repo.xarold.com.ifile
 Name: iFile
